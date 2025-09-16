@@ -136,7 +136,6 @@ module tb_mux8to1_case;
       #10;
       $display("%0t   | %0d   | %0b", $time, sel, y);
     end
-
     $finish;
   end
 endmodule
